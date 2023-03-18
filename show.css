@@ -1,0 +1,20 @@
+.moving-header {
+  position: absolute;
+  top: 50px; /* adjust this value to change the vertical position of the header */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 36px; /* adjust this value to change the font size of the header */
+  color: #fff; /* adjust this value to change the color of the header */
+  text-shadow: 1px 1px #000; /* add a text shadow for better readability */
+  animation: scroll 10s linear infinite; /* adjust this value to change the speed of the animation */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
